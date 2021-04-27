@@ -32,7 +32,8 @@
             ],
             "styles": [
               "src/styles.scss",
-              "./node_modules/bootstrap/dist/css/bootstrap.css"
+              "bootstrap/scss/bootstrap.scss",
+              "bootstrap-icons/font/bootstrap-icons.css"
             ],
             "scripts": []
           },
@@ -101,7 +102,8 @@
             ],
             "styles": [
               "src/styles.scss",
-              "./node_modules/bootstrap/dist/css/bootstrap.css"
+              "bootstrap/scss/bootstrap.scss",
+              "bootstrap-icons/font/bootstrap-icons.css"
             ],
             "scripts": []
           }

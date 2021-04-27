@@ -1,19 +1,24 @@
 <div class="container-fluid p-0">
   <nav class="navbar navbar-expand-lg navbar-light bg-light px-4">
-    <a href="#" class="navbar-brand">DevOps News
+    <a routerLink="" class="navbar-brand">
+      <span style="margin-right: 8px;"><em class="bi bi-newspaper"></em></span>
+      DevOps news
     <small class="text-muted">your source of news about DevOps!</small>
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-control="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   </nav>
-  <div class="jumbotron p-4">
-    <h1 class="display-4">Hello, dev!</h1>
-    <p class="lead">
-      Read dayli news and articles about DevOps!
-    </p>
-    <hr class="my-4">
-  </div>
+  <div class="container-fluid p-4">
+    <div class="jumbotron">
+      <h1 class="display-4">Hello, dev!</h1>
+      <p class="lead">
+        Read daily news and articles about DevOps!
+      </p>
+      <hr class="my-4">
+    </div>
+  
+    <router-outlet></router-outlet>
 
-  <router-outlet></router-outlet>
+  </div>
 </div>

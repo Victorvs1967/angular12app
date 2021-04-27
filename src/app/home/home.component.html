@@ -1,0 +1,10 @@
+<div class="container">
+  <div *ngFor="let item of data" class="card">
+    <img src="{{ item.urlToImage }}" alt="card illustration" class="card-img-top" />
+    <div class="card-body">
+      <h5 class="card-title">{{ item.title }}</h5>
+    </div>
+    <p class="card-text">{{ item.descripition }}</p>
+    <a class="m-2" href="{{ item.url }}">Read full article</a>
+  </div>
+</div>
